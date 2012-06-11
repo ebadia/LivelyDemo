@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A10499F1546F8CA004FDCB5 /* ADLivelyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A10499E1546F8CA004FDCB5 /* ADLivelyTableView.m */; };
+		25DBB51A158665EF006E1D6F /* ADLivelyTableView.h in Sources */ = {isa = PBXBuildFile; fileRef = 25DBB518158665EF006E1D6F /* ADLivelyTableView.h */; };
+		25DBB51B158665EF006E1D6F /* ADLivelyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DBB519158665EF006E1D6F /* ADLivelyTableView.m */; };
 		7A1EB6F41546E373006E92AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1EB6F31546E373006E92AC /* UIKit.framework */; };
 		7A1EB6F61546E373006E92AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1EB6F51546E373006E92AC /* Foundation.framework */; };
 		7A1EB6F81546E373006E92AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1EB6F71546E373006E92AC /* CoreGraphics.framework */; };
@@ -19,8 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7A10499D1546F8CA004FDCB5 /* ADLivelyTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADLivelyTableView.h; path = ../ADLivelyTableView.h; sourceTree = "<group>"; };
-		7A10499E1546F8CA004FDCB5 /* ADLivelyTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADLivelyTableView.m; path = ../ADLivelyTableView.m; sourceTree = "<group>"; };
+		25DBB518158665EF006E1D6F /* ADLivelyTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = ADLivelyTableView.h; sourceTree = "<group>"; };
+		25DBB519158665EF006E1D6F /* ADLivelyTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADLivelyTableView.m; sourceTree = "<group>"; };
 		7A1EB6EF1546E373006E92AC /* LivelyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivelyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A1EB6F31546E373006E92AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7A1EB6F51546E373006E92AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,8 +55,8 @@
 		7A1049A01546F8D6004FDCB5 /* ADLivelyTableView */ = {
 			isa = PBXGroup;
 			children = (
-				7A10499D1546F8CA004FDCB5 /* ADLivelyTableView.h */,
-				7A10499E1546F8CA004FDCB5 /* ADLivelyTableView.m */,
+				25DBB518158665EF006E1D6F /* ADLivelyTableView.h */,
+				25DBB519158665EF006E1D6F /* ADLivelyTableView.m */,
 			);
 			name = ADLivelyTableView;
 			sourceTree = "<group>";
@@ -177,7 +178,8 @@
 				7AE416851546F6C800E86FF7 /* LDAppDelegate.m in Sources */,
 				7AE416861546F6C800E86FF7 /* LDMasterViewController.m in Sources */,
 				7AE4168B1546F6E200E86FF7 /* main.m in Sources */,
-				7A10499F1546F8CA004FDCB5 /* ADLivelyTableView.m in Sources */,
+				25DBB51A158665EF006E1D6F /* ADLivelyTableView.h in Sources */,
+				25DBB51B158665EF006E1D6F /* ADLivelyTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
